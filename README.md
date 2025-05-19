@@ -12,6 +12,15 @@ This project follows a multi-stage pipeline:
 4. **Conditioned Decoder**: Feeds image encodings at each LSTM timestep.
 5. **Beam Search**: Implements a beam search strategy for improved caption generation.
 
+## Project Structure
+
+```text
+├── data/    # Folder expected to contain the Flickr8k dataset
+├── caption_model.ipynb    # Main development notebook
+├── caption_model.py    # Exported script version of the notebook
+├── requirements.txt
+└── README.md
+```
 
 ## Files
 
