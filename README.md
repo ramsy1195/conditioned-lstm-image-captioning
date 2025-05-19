@@ -38,7 +38,7 @@ This project follows a multi-stage pipeline:
 
 ## Dataset
 
-To run this project, download the Flickr8k dataset:
+To run this project, download the Flickr8k dataset (need a Lionmail ID):
 - [Flickr8k Dataset (Google Drive Link)](https://drive.google.com/drive/folders/1sXWOLkmhpA1KFjVR0VjxGUtzAImIvU39?usp=sharing)
 
 Set the `MY_DATA_DIR` variable in the notebook or script accordingly.
