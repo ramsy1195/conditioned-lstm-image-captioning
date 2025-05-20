@@ -60,6 +60,12 @@ python caption_model.py
 ```
 
 ## Notes
-- This model requires access to a GPU.
-- Some preprocessing (like image encoding) is done once and stored to disk to save time during training.
-
+- This model requires access to a GPU for efficient training.
+- Encoded image features are cached to disk to avoid redundant computation.
+- Beam search improves caption quality compared to greedy decoding.
+- Possible extensions:
+    - Replace ResNet-18 with more powerful vision encoders (e.g., EfficientNet or ViT).
+    - Use Transformer-based decoders instead of LSTM.
+    - Train on larger datasets (e.g., MS COCO) for better generalization.
+    - Incorporate attention mechanisms to focus on image regions.
+    - Enable multilingual captioning or visual question answering.
